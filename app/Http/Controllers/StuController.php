@@ -15,7 +15,7 @@ class StuController extends Controller
     public function index()
     {
         //
-        // echo"qqq";
+        echo"qqq";
         $query=request()->all();
         // dd($query);
         $data=DB::table('stu')->get();
